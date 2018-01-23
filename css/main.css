@@ -1,0 +1,171 @@
+/*****BASE STYLES*****/
+body {font-family: 'Oswald', sans-serif;
+}
+#about {
+  height:600px;
+
+}
+ #skills, #work, #Contact {
+  height: 600px;
+}
+
+
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin:0 auto;
+}
+
+  .half-width {
+  width:600px;
+  float:left;
+}
+
+  .third-width {
+    width:400px;
+    float:left;
+}
+/*****HEADER*****/
+header {
+  height: 800px;
+  background-image: url('../img/background1.jpg');
+  background-size:cover;
+}
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size:40px;
+  color: #660033;
+  padding: 45px 0;
+  text-transform: bold;
+
+}
+header h2 {
+  color: #660033;
+  font-family:'Oswald', sans-serif;
+  font-size:35px;
+  padding: 55px 0 0 850px;
+  text-align: right;
+
+}
+/*****NAV*****/
+nav {
+  float:right;
+  padding: 75px 40px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: small caps;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 40px;
+
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1px;
+  
+}
+/*****ABOUT*****/
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  color: #660033;
+}
+#about p {
+  font-family:'Oswald', sans-serif;
+  font-size: 28px;
+  color:#000000;
+  line-height:40px:
+  padding-right:50px;
+}
+/*****SKILLS*****/
+#skills {
+ background-color: #EBEBEB;
+  text-align: center;
+}
+#skills . full-width {
+  padding: 115px 0;
+}
+
+#skills img {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+h4 {
+  font-size: 30px;
+  color: #2b2b2b;
+}
+#skills h5 {
+  font-size: 24px;
+  width: 190px;
+  margin: 0 auto;
+
+}
+#skills p{
+  font-family: 'Oswald', sans-serif;
+  font-size:18px;
+  line-height:30px;
+  color:#2b2b2b;
+  padding: 0 35px;
+}
+
+/*****CONTACT*****/
+
+#contact {
+  clear: both;
+
+}
+
+#contact.full-width {
+  padding: 110px 0;
+
+}
+#contact h5 {
+  padding-left: 115px;
+  text-align: left;
+}
+
+#contact h5 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  color: #660033;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact-logo {
+  border:12px
+}
+#contact ul li {
+  display: inline-block;
+
+}
+#contact ul img {
+  padding-right: 5px;
+
+}
+/* Set all margins and paddings to 0 on all browsers */
+
+form input {
+border: 2px solid #2b2b2b;
+}
